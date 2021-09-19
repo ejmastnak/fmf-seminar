@@ -26,3 +26,11 @@ The project encompasses two parts:
 - a roughly 35 to 40-minute slide-show presentation to the student's classmates, course coordinator, and mentor, followed by questions from the audience and a seminar-style discussion of the topic.
 
 The Seminar is intended primarily as an exercise in clear scientific writing and presentation, a training of sorts for giving presentations at scientific conferences. However, students are not expected (nor encouraged) to produce original research in the scope of the Seminar, simply to clearly present their chosen topic at a level suitable (i.e. not too advanced) for a general final-year undergraduate audience.
+
+### License
+The contents of `report`, `presentation`, `presentation-slo`, and `svg-figure-files` are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] 
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
