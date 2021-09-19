@@ -1,0 +1,53 @@
+----------------------------------------------------------
+End-to-End Physics Event Classification with CMS Open Data: Applying Image-Based Deep Learning to Detector Data for the Direct Classification of Collision Events at the LHC (Higgs classification)
+
+https://arxiv.org/pdf/1807.11916.pdf
+
+@article{Andrews_2020,
+   title={End-to-End Physics Event Classification with CMS Open Data: Applying Image-Based Deep Learning to Detector Data for the Direct Classification of Collision Events at the LHC},
+   volume={4},
+   ISSN={2510-2044},
+   url={http://dx.doi.org/10.1007/s41781-020-00038-8},
+   DOI={10.1007/s41781-020-00038-8},
+   number={1},
+   journal={Computing and Software for Big Science},
+   publisher={Springer Science and Business Media LLC},
+   author={Andrews, M. and Paulini, M. and Gleyzer, S. and Poczos, B.},
+   year={2020},
+   month={Mar}
+}
+
+----------------------------------------------------------
+ECAL
+End-to-End Event Classification of High-Energy Physics Data
+https://indico.cern.ch/event/567550/papers/2629451/files/7515-end-end-event_v4.pdf
+
+@article{article,
+author = {Andrews, M and Paulini, M and Gleyzer, Sergei and Poczos, B},
+year = {2018},
+month = {09},
+pages = {042022},
+title = {End-to-End Event Classification of High-Energy Physics Data},
+volume = {1085},
+journal = {Journal of Physics: Conference Series},
+doi = {10.1088/1742-6596/1085/4/042022}
+}
+
+
+--------------------------------
+End-to-End Jet Classification of Quarks and Gluons with the CMS Open Data
+https://arxiv.org/pdf/1902.08276.pdf
+
+@article{Andrews_2020,
+   title={End-to-end jet classification of quarks and gluons with the CMS Open Data},
+   volume={977},
+   ISSN={0168-9002},
+   url={http://dx.doi.org/10.1016/j.nima.2020.164304},
+   DOI={10.1016/j.nima.2020.164304},
+   journal={Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+   publisher={Elsevier BV},
+   author={Andrews, M. and Alison, J. and An, S. and Burkle, B. and Gleyzer, S. and Narain, M. and Paulini, M. and Poczos, B. and Usai, E.},
+   year={2020},
+   month={Oct},
+   pages={164304}
+}

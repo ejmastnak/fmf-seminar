@@ -1,0 +1,26 @@
+---------------------------
+Dataset from the ATLAS Higgs Boson Machine Learning Challenge 2014
+http://opendata.cern.ch/record/328
+
+---------------------------
+HIGGS Data Set UCI Machine Learning Repository
+https://archive.ics.uci.edu/ml/datasets/HIGGS#
+
+---------------------------
+Andrews signal (gluon-gluon to Higgs to diphoton):  
+GluGluHToGG M-125 8TeV-pythia6 in AODSIM format for 2012 collision data. (2017). CERN Open Data Portal.
+DOI:10.7483/OPENDATA.CMS.WQ7P.BZP3
+http://opendata.cern.ch/record/7783
+
+---------------------------
+Andrews background DiPhoton
+ DiPhotonBorn Pt-25To250 8TeV ext-pythia6 in AODSIM format
+for 2012 collision data. (2017). CERN Open Data Portal.
+DOI:10.7483/OPENDATA.CMS.WV7J.8GN0
+http://opendata.cern.ch/record/7687
+
+---------------------------
+Andrews background 2
+GJet Pt40 doubleEMEnriched TuneZ2star 8TeV extpythia6 in AODSIM format for 2012 collision data (2017). CERN Open Data Portal.
+DOI:10.7483/OPENDATA.CMS.2W51.W8AT
+http://opendata.cern.ch/record/7778

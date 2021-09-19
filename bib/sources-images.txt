@@ -1,0 +1,25 @@
+cms-slice
+https://cds.cern.ch/record/2120661
+
+cern-acc-complex
+https://cds.cern.ch/record/1621894
+
+cms-cutaway (cms and cms-no-labels)
+https://cds.cern.ch/record/2665537
+
+atlas-slice
+https://cds.cern.ch/record/1505342
+--------------------
+cms coords diagram
+https://wiki.physik.uzh.ch/cms/latex:example_spherical_coordinates
+
+--------------------
+PbWO4 ECAL crystals
+https://cds.cern.ch/record/1998528
+
+-------------------
+Proton Collision Event with Boosters and LHC
+https://www.youtube.com/watch?v=NhXMXiXOWAA
+
+Note: convert file to pdfpc-compatible OGV format using
+https://video.online-convert.com/convert-to-ogv 
