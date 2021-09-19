@@ -1,4 +1,4 @@
-### Including animations
+## Including Animations
 In addition to the files in `raster` and `vector`, the presentation slide show also includes an animation of a proton-proton collision in the ATLAS detector which I have not placed under version control and is not available in this directory. At the time of writing, the original animation is available on the ATLAS Experiment's YouTube channel with the title [Proton Collision Event with Boosters and LHC](https://www.youtube.com/watch?v=NhXMXiXOWAA). If you want to replicate the original presentation exactly, download the animation from YouTube and modify the `media` directory's structure to read:
 ```
 media/
