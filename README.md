@@ -15,7 +15,7 @@ Source files for Elijan Mastnak's paper and presentation for the Seminar course 
 - The bibliography files are managed using the `biblatex` package with the `biber` backend; the paper's bibliography uses the `atlasbiblatex` style.
 - The project's `tex` files were compiled with [John Collins' `latexmk` script](https://ctan.org/pkg/latexmk/). Regular `pdflatex` also works but can give unexpected results with bibliography references.
 
-- Figures were created with the `Inkscape` vector graphics application; I used the `TexText` extension to incorporate LaTeX code into the figures. All files in `svg-figure-files` are saved in Inkscape's `Inkscape SVG` format.
+- Figures were created with the `Inkscape` vector graphics application; I used the [TexText](https://textext.github.io/textext/) extension to incorporate LaTeX code into the figures. All files in the `svg-figure-files` directory are saved in Inkscape's `Inkscape SVG` format.
 
 
 ### About the Seminar course at FMF

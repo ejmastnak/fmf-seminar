@@ -1,2 +1,2 @@
 # Inkscape SVG Source Files
-Inkspace `svg` source files for the vector diagrams used in the paper and presentation. The files are saved in Inkscape's `Inkscape SVG` format and require the TexText Inkscape extension to render LaTeX code. The TexText extension is configured to use the `textext-preamble.tex` LaTeX preamble file included in this directory.
+This directory holds the Inkspace `svg` source files used to make the vector diagrams used in the paper and presentation. The files are saved in Inkscape's `Inkscape SVG` format and require the [TexText](https://textext.github.io/textext/) Inkscape extension to render LaTeX code. The file `textext-preamble.tex` is the LaTeX preamble referenced by TexText in the scope of this project.
