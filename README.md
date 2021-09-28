@@ -1,13 +1,13 @@
 
 # Seminar
-Source files for Elijan Mastnak's paper and presentation for the Seminar course requirements at the Faculty of Math and Physics at the University of Ljubljana. The project explores the use of convolutional neural networks for classifying the products of high-energy collisions in particle physics. See [About the Seminar course at FMF](#about-the-seminar-course-at-fmf) below for context.
+Source files for Elijan Mastnak's paper and presentation for the *Seminar* course requirements at the Faculty of Math and Physics at the University of Ljubljana. The project explores the use of convolutional neural networks for classifying the products of high-energy collisions in particle physics; you can read more about the project on [my website](https://ejmastnak.github.io/seminar/seminar.html). See [About the Seminar course at FMF](#about-the-seminar-course-at-fmf) below for context on the *Seminar* course.
 
 ### Project structure
 - `bib` holds the project's `biblatex` bibliography database
 - `media` holds the diagrams, images, and animations used in the paper and presentation
 - `presentation-slo` holds a Slovene version of the presentation's LaTeX source files
-- `presentation` is the English analog of `presentation`
-- `paper` holds paper's LaTeX source files (in English)
+- `presentation` is the English analog of `presentation-slo`
+- `paper` holds the paper's LaTeX source files (in English)
 - `svg-figure-files` holds the `svg` files used to make the paper and presentation's diagrams
 
 ### Software used to make the project
@@ -19,19 +19,20 @@ Source files for Elijan Mastnak's paper and presentation for the Seminar course 
 
 - Figures were created with the `Inkscape` vector graphics application; I used the [TexText](https://textext.github.io/textext/) extension to incorporate LaTeX code into the figures. All files in the `svg-figure-files` directory are saved in Inkscape's `Inkscape SVG` format.
 
-- I used the [`pdfpc`](https://pdfpc.github.io/) presenter console to present the slide show.
+- I used the [`pdfpc` presenter console](https://pdfpc.github.io/) to present the slide show.
+
 
 ### About the Seminar course at FMF
 *Seminar* is a required course for students in the final semester of the undergraduate physics program at the Faculty of Mathematics and Physics at the University of Ljubljana. In the scope of the course, students, under the guidance of a faculty mentor, write an undergraduate thesis on a currently relevant physics topic and present the topic to their classmates.
 
 The project encompasses two parts:
 - a written paper (no more than about 20 pages)
-- a roughly 35 to 40-minute slide-show presentation to the student's classmates, course coordinator, and mentor, followed by questions from the audience and a seminar-style discussion of the topic.
+- a 35 to 40-minute slide-show presentation to the student’s classmates, course coordinator, and mentor, followed by questions from the audience and a seminar-style discussion of the topic.
 
-The Seminar is intended primarily as an exercise in clear scientific writing and presentation, a training of sorts for giving presentations at scientific conferences. However, students are not expected (nor encouraged) to produce original research in the scope of the Seminar, simply to clearly present their chosen topic at a level suitable (i.e. not too advanced) for a general final-year undergraduate audience.
+The project is intended primarily as an exercise in clear scientific writing and presentation, a training, in some sense, for giving presentations at scientific conferences. However, undergraduate students are neither expected nor encouraged to produce original research in the scope of the Seminar course, simply to clearly present their chosen topic at a level suitable (i.e. not too advanced) for a general final-year undergraduate audience.
 
 ### License
-The contents of `paper`, `presentation`, `presentation-slo`, and `svg-figure-files` are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+The contents of the directories `paper`, `presentation`, `presentation-slo`, and `svg-figure-files` are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] 
 
