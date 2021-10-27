@@ -590,7 +590,7 @@ We begin by introducing the notation\footnote{Note that some of the notation use
     % The number of neurons in the output layer is $ n_{L} = C $.
 
 \end{itemize}
-% \textit{Note}: The following two sections contain a lot of information. From personal experience, keeping track of the relationships between weights and biases across network layers may be overwhelming to the unfamiliar reader on a first attempt. Unfortunately, I know of no way around this if we wish to meaningfully understand a neural network beyond mere hand-waving. To make things easier, I have paid utmost care to consistent and semantically meaningful notation, while a more intuitive ``big-picture'' interpretation of a neural network follows in \myhref{ss:fcn-interpretation}{Section \ref{ss:fcn-interpretation}}.
+% \textit{Note}: The following two sections contain a lot of information. From personal experience, keeping track of the relationships between weights and biases across network layers may be overwhelming to the unfamiliar reader on a first attempt. Unfortunately, I know of no way around this if we wish to meaningfully understand a neural network beyond mere hand-waving. To make things easier, I have done my best to provide consistent and semantically meaningful notation; also, a more intuitive ``big-picture'' interpretation of a neural network follows in \myhref{ss:fcn-interpretation}{Section \ref{ss:fcn-interpretation}}.
 
 \subsection{Weights and Biases}
 \small{\textit{The purpose of the weights and biases appears immediately below in} \myhref{ss:response-activation}{Appendix \ref{ss:response-activation}}.}
@@ -678,15 +678,15 @@ In practice, all hidden layers use the same activation function, so I will omit 
 
 Moving forward through the network, the first hidden layer's activation values $ \a^{(1)} \in \mathbb{R}^{n_{1}} $ are passed forward to each of the $ n_{2} $ neurons in the second hidden layer. The pre-activation values of the second hidden layer's neurons are then
 \begin{equation*}
-    \z^{(2)} = \big( \W^{(2)} \big)^{\mspace{-4mu}\top} \z^{(1)} + \b^{(2)} \in \mathbb{R}^{n_{2}},
+    \z^{(2)} = \big( \W^{(2)} \big)^{\mspace{-4mu}\top} \a^{(1)} + \b^{(2)} \in \mathbb{R}^{n_{2}},
 \end{equation*}
 while the activation values of the neurons in the second hidden layer are
 \begin{equation*}
-    \a^{(2)} = f_{\text{a}}(\z^{(2)}) = f_{\text{a}} \Big( \big( \W^{(2)} \big)^{\mspace{-4mu}\top} \z^{(1)} + \b^{(2)}\Big) \in \mathbb{R}^{n_{2}}.
+    \a^{(2)} = f_{\text{a}}(\z^{(2)}) = f_{\text{a}} \Big( \big( \W^{(2)} \big)^{\mspace{-4mu}\top} \a^{(1)} + \b^{(2)}\Big) \in \mathbb{R}^{n_{2}}.
 \end{equation*}
 More generally, the activation values of the $ n_{l} $ neurons in the $ l $-th hidden layer are
 \begin{equation*}
-    \a^{(l)} = f_{\text{a}}(\z^{(l)}) = f_{\text{a}} \Big( \big( \W^{(l)} \big)^{\mspace{-4mu}\top} \z^{(l-1)} + \b^{(l)}\Big) \in \mathbb{R}^{n_{l}}.
+    \a^{(l)} = f_{\text{a}}(\z^{(l)}) = f_{\text{a}} \Big( \big( \W^{(l)} \big)^{\mspace{-4mu}\top} \a^{(l-1)} + \b^{(l)}\Big) \in \mathbb{R}^{n_{l}}.
 \end{equation*} 
 
 
