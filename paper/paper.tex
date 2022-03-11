@@ -359,7 +359,7 @@ Schematically, classification workflows~\ref{item:kinematic-classification} and~
 % Understanding the principles of a FCN will provide a firm foundation for understanding the convolutional neural networks used for end-to-end classification.
 
 \section{Fully-Connected Networks} \label{s:fcn}
-In this section we take a look inside the ``Fully-Connected Neural Network'' box in Figure~\ref{fig:fcn-in-out}.
+In this section we take a look inside the ``Fully-Connected Neural Network'' box in the block diagram in Figure~\ref{fig:fcn-in-out}.
 Suppose, as in Figure~\ref{fig:fcn-in-out}, that we have a set of kinematic properties encoding a collision event (found, for example, with the particle flow reconstruction algorithm mentioned in \myhref{ss:three-methods}{Section~\ref{ss:three-methods}}), which we pack into a vector $ \vec{x} $.
 In machine learning terminology~\cite{homl}, each individual kinematic property is called a \textit{feature}, and the two possible outcomes (signal or background) are called \textit{classes}.
 The correct class (either signal or background) for a given event is called the event's \textit{target} or \textit{label}, and the complete set of features describing a single event, together with the label, is called an \textit{instance}.
@@ -367,12 +367,15 @@ Finally, the complete set of available instances (the complete set of collision 
 With the vocabulary lesson out of the way, we are equipped to formally describe a neural network.
 But first, we should reveal supervised machine learning's dirty secret:
 \begin{quote}
-    The dataset used to train a neural network is entirely \textit{simulated}.\footnote{Simulated collision data is constructed with sophisticated algorithms involving Monte-Carlo sampling, a theoretical physical framework such as the Standard Model, and a geometrical model of the particle detector.
-    Like particle flow reconstruction, this falls beyond the scope of this work.}
+    In the application of deep learning to particle physics classification, the datasets used to train neural networks are entirely \textit{simulated}.
 \end{quote}
-Why? Well, we \textit{know} the outcome of each simulated collision event.
-Thus, our dataset comes with correct labels for every single instance.
-Using this large dataset of correctly-labeled data, we can train a neural network to give accurate results even when, as in practical applications, the correct results aren't known beforehand.
+Why? The nature of the network training process requires a large set of correctly-labeled training data for the network to build an accurate model that, subsequently, correctly classifies unlabeled, physical data.
+(That the network requires correctly-labelled training data to work properly should make sense---it cannot come up with a correct view of the physical world out of thin air.)
+Simulation, rather than measurement, turns out to be the best way to rapidly and accurately produce correctly-labeled particle classification data at the scale needed for network training, and so it happens that the datasets used to train neural networks for particle classification problems are simulated.%
+\footnote{Simulated collision data is constructed with sophisticated algorithms involving Monte-Carlo sampling, a theoretical physical framework such as the Standard Model, and a geometrical model of the particle detector.
+    Like particle flow reconstruction, this falls beyond the scope of this work.}
+Put simply, we \textit{know} the outcome of each simulated collision event---the computer simulation creates it.
+Using the simulated dataset of correctly-labeled data, one can train a neural network to give accurate results even when, as in practical applications, the correct results aren't known beforehand.
 
 \subsection{Understanding a Binary Classifier's Output} \label{ss:output}
 
