@@ -1,6 +1,8 @@
-
 # Seminar
-Source files for Elijan Mastnak's paper and presentation for the *Seminar* course requirements at the Faculty of Math and Physics at the University of Ljubljana. The project explores the use of convolutional neural networks for classifying the products of high-energy collisions in particle physics; you can read more about the project on [my website](https://ejmastnak.github.io/seminar/seminar.html). See [About the Seminar course at FMF](#about-the-seminar-course-at-fmf) below for context on the *Seminar* course.
+Source files for Elijan Mastnak's paper and presentation for the *Seminar* course requirements at the Faculty of Math and Physics at the University of Ljubljana. The project explores the use of convolutional neural networks for classifying the products of high-energy collisions in particle physics; you can read more on [my website](https://ejmastnak.github.io/projects/seminar/seminar.html). 
+
+### Want a PDF?
+See [ejmastnak.github.io/projects/seminar/paper.pdf](https://ejmastnak.github.io/projects/seminar/paper.pdf) for an up-to-date, pre-compiled PDF.
 
 ### Project structure
 - `bib` holds the project's `biblatex` bibliography database
